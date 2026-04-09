@@ -1,0 +1,178 @@
+/* Resetare generală */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.6;
+    color: #4a3f35;
+    background-color: #fdfbf7;
+}
+
+h1, h2, .logo {
+    font-family: 'Playfair Display', serif;
+}
+
+/* Navigație */
+header {
+    background: #fdfbf7;
+    padding: 1.5rem 10%;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #8c6a56; /* O nuanță de maro cald */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    margin-left: 2rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #4a3f35;
+    font-weight: 400;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #d4a373;
+}
+
+/* Hero Section */
+.hero {
+    height: 80vh;
+    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
+                url('https://scontent.fsbz4-1.fna.fbcdn.net/v/t39.30808-6/655305732_122099160632981046_7540566134782026428_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2a1932&_nc_ohc=TENjxluTG6wQ7kNvwH-Dd1w&_nc_oc=Ado_BQL__eOaKwuf52Lwn2ZWDmEX98ITpQj9QZrz4KTOMyBvOipfn1uMm3gTGtedbdI&_nc_zt=23&_nc_ht=scontent.fsbz4-1.fna&_nc_gid=Mmz57WjtXdt1j-Kcf-bEdg&_nc_ss=7a3a8&oh=00_Af3jvlU-ODaeTpBZ3k-vtXA-VymOEWkBBzVZQDY_208Jbw&oe=69DDA395') center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fdfbf7;
+}
+#paragraf {
+    font-size: 1.5rem;
+    max-width: 800px;
+    margin: 43.5rem 0 0 0;
+    color:#fdfbf7
+}
+.btn {
+    display: inline-block;
+    margin-top: 45rem;
+    padding: 1rem 2.5rem;
+    background-color: #d4a373;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background-color: #8c6a56;
+}
+
+/* Secțiuni */
+section {
+    padding: 5rem 10%;
+    text-align: center;
+}
+
+.about {
+    background-color: #fdfbf7;
+}
+
+.about h2 {
+    margin-bottom: 1.5rem;
+    font-size: 2.5rem;
+}
+
+.about p {
+    max-width: 800px;
+    margin: 0 auto;
+    font-size: 1.1rem;
+}
+
+/* Galerie */
+.portfolio h2 {
+    margin-bottom: 3rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.placeholder-img {
+    height: 200px;
+    background-color: #fdfbf7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: #8c6a56;
+}
+
+/* Footer */
+footer {
+    background-color: #4a3f35;
+    color: #fdfbf7;
+    padding: 4rem 10% 2rem;
+}
+
+.social-links {
+    margin: 2rem 0;
+}
+
+.social-links a {
+    color: #d4a373;
+    margin: 0 1rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.copyright {
+    margin-top: 3rem;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
+
+.img{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.container{;
+    max-width: 100%;
+    margin-top: 5rem;
+    text-align: justify;
+
+}
+.container2{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.hero-content{
+    margin-top: 6rem;}
