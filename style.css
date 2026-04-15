@@ -62,7 +62,7 @@ nav ul li a:hover {
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
-                url('https://scontent.fsbz4-1.fna.fbcdn.net/v/t39.30808-6/655305732_122099160632981046_7540566134782026428_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2a1932&_nc_ohc=TENjxluTG6wQ7kNvwH-Dd1w&_nc_oc=Ado_BQL__eOaKwuf52Lwn2ZWDmEX98ITpQj9QZrz4KTOMyBvOipfn1uMm3gTGtedbdI&_nc_zt=23&_nc_ht=scontent.fsbz4-1.fna&_nc_gid=Mmz57WjtXdt1j-Kcf-bEdg&_nc_ss=7a3a8&oh=00_Af3jvlU-ODaeTpBZ3k-vtXA-VymOEWkBBzVZQDY_208Jbw&oe=69DDA395') center/cover;
+                url('https://scontent.fsbz4-1.fna.fbcdn.net/v/t39.30808-6/655305732_122099160632981046_7540566134782026428_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=2a1932&_nc_ohc=7OS4i5HuAxEQ7kNvwHkYsrs&_nc_oc=Adr6CDhxFYNbLD_NbmwWno7g8syfSjGw3L8FgmOo9Jloh344DefwVgFLCQYcdsYa04c&_nc_zt=23&_nc_ht=scontent.fsbz4-1.fna&_nc_gid=GoPY3ZnuGG8JGGuLJWXTZQ&_nc_ss=7a3a8&oh=00_Af08wjESQGgR_pey87aWWdEv9Lstdpg41J6Ea3wytlQS2Q&oe=69E58C95') center/cover;
     display: flex;
     align-items: center;
     justify-content: center;
