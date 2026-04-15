@@ -60,7 +60,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    height: 80vh;
+    height: 500px;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
     url('./cover.jpg') center/cover;
     display: flex;
