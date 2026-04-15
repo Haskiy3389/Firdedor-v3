@@ -69,9 +69,6 @@ nav ul li a:hover {
     text-align: center;
     color: #fdfbf7;
     
-    min-height: 500px; /* O înălțime minimă de siguranță */
-    background-position: center center;
-    background-repeat: no-repeat;
 }
 #paragraf {
     font-size: 1.5rem;
