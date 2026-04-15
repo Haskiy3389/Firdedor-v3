@@ -62,8 +62,9 @@ nav ul li a:hover {
 .hero {
     height: 80vh;
     background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
-                center/cover;
-                img<a href="/.cover.jpg"/>
+               
+              
+    <img src="cover.jpg" alt="Cezar" center/cover; >
     display: flex;
     align-items: center;
     justify-content: center;
