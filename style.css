@@ -60,9 +60,11 @@ nav ul li a:hover {
 
 /* Hero Section */
 .hero {
-    height: 500px;
-    background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), 
-    url('./cover.jpg') center/cover;
+    height: 80vh;
+    background-image: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url('cover.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
